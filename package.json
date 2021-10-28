@@ -1,6 +1,9 @@
 {
-  "name": "vue-project",
+  "name": "@3nuc/vue-tsc-component-library-example",
   "version": "0.0.0",
+  "main": "./dist/vue-tsc-component-library-example.umd.js",
+  "module": "./dist/vue-tsc-component-library-example.es.js",
+  "typings": "./src/main.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --declaration --emitDeclarationOnly && vite build",
