@@ -1,4 +1,3 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import MyButton from '@/MyButton.vue'
 
-createApp(App).mount('#app')
+export { MyButton }
