@@ -1,35 +1,9 @@
-# vue-tsc-component-library-example
+# Library compiled using vue-tsc
 
-This template should help get you started developing with Vue 3 in Vite.
+Yes, the build output contains real prop typings for components
 
-## Recommended IDE Setup
+## Installation
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur).
+This library is published on npm. Just do `npm i @3nuc/vue-tsc-component-library-example` - https://www.npmjs.com/package/@3nuc/vue-tsc-component-library-example
 
-## Type Support for `.vue` Imports in TS
-
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates.
-
-However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can run `Volar: Switch TS Plugin on/off` from VSCode command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+<span color="red"><b>IMPORTANT</b></span> — make sure you DELETE the `env.d.ts`/`shims.d.ts` file in the project that'll be using the component library (the one where you'll write eg. `import {MyButton} from 'my-component-library'`.
