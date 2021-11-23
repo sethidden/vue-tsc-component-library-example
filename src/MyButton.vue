@@ -1,4 +1,5 @@
-<script setup lang="ts">import { PropType } from '@vue/runtime-core';
+<script setup lang="ts">
+import { PropType } from '@vue/runtime-core';
 
 defineProps({
   /* 
