@@ -1,6 +1,6 @@
 {
   "name": "@3nuc/vue-tsc-component-library-example",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "./dist/vue-tsc-component-library-example.umd.js",
   "module": "./dist/vue-tsc-component-library-example.es.js",
   "typings": "./dist_types/main.d.ts",
